@@ -1,12 +1,12 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import MainPage from './component/MainPage';
 
 function App() {
   return (
-    <div className="gray-background">
-        <img src={logo}  lat="logo" />
-        <h2>Hello React Project</h2>
-    </div>
+   <div>
+     <MainPage/>
+   </div>
   );
 }
 
