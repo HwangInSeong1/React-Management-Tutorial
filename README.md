@@ -1,5 +1,5 @@
-## Management System
-본 프로젝트는 React 강의 목적으로 만들어진 고객 관리 시스템(Management System) 입니다.
+## Shopping Open-Market System
+본 프로젝트는 React 연습용 목적으로 만들어진 오픈마켓(Open-Market) 입니다.
 
 # Getting Started with Create React App
 
