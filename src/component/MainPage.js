@@ -1,20 +1,11 @@
 import "./css/Main.css"
-
+import SideBar from './SideBar'
 export default function MainPage() {
-        return (
-    <body>
-        <div className="contain">
-            <div className="SideMenu">
-                <input type="checkbox" id="menuicon"/>
-                    <label for="menuicon">
-	                    <span></span>
-	                    <span></span>
-	                    <span></span>
-                    </label>
-                <div className="sidebar">
-                </div>
+    return (
+        <body>
+            <div className="contain">
+                <SideBar />
             </div>
-        </div>       
-    </body>
-        )
+        </body>
+    )
 }
