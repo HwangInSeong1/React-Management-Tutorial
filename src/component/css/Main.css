@@ -26,7 +26,7 @@ body {
 .contain {
     width: 100%;
     height: 100%;
-    background-image: url(../img/Example.png);
+    background-image: url(../img/Example.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     position:absolute;
@@ -35,6 +35,7 @@ body {
     width:60px;
     height:50px;
     margin:15px;
+    opacity: 0.9;
     position:absolute;
     transition:all 0.25s linear;
 }
@@ -110,5 +111,49 @@ div[class="sidebar"] {
 
 input[id="menuicon"]:checked + label + div {
     left:0;
-    box-shadow : rgba(0,0,0,0.7) 0 0 0 9999px;
+    box-shadow : rgba(0,0,0,0.5) 0 0 0 9999px;
+}
+
+.sidemenu {
+    color: white;
+    width: 300px;
+    border-top: 3px solid #EDEDED;
+    border-bottom: 3px solid #EDEDED;
+    margin-top: 100px;
+    z-index: 1;
+}
+
+.sidemenu > ul li {
+    width: 230px;
+    border-bottom: 1px solid #EDEDED;
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    height: 39px;
+    letter-spacing: 0.12em; /* 글씨 자간 간격 */
+    line-height: 39px; /* 글씨라인 높이 조정 */
+    text-transform: uppercase; /* 대문자 변경 */
+    margin-left: auto; /* 가운데 정렬 */
+    margin-right: auto; /* 가운데 정렬 */
+}
+
+ul {
+    -webkit-padding-start: 0px;
+}
+
+.sidemenu ul:nth-child(2) li:first-child {
+    padding-top: 30px;
+}
+
+.sidemenu ul:nth-child(2) li:last-child {
+    border-bottom: 0px;
+}
+
+li > a {
+      color: white;
+      text-decoration: none;
+}
+
+li > a:hover {
+      color:aqua;
 }
