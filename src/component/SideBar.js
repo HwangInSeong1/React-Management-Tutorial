@@ -7,6 +7,7 @@ import {GrTwitter} from "react-icons/gr";
 import {HiArrowCircleRight} from "react-icons/hi";
 
 export default function SideBar() {
+
     return (
         <div className="SideMenu">
             <input type="checkbox" id="menuicon" />
@@ -17,12 +18,14 @@ export default function SideBar() {
             </label>
             <div className="sidebar">
                 <div className="sidemenuTitle">
-                    <h1>Side Menu </h1>
+                    <h1>Open Market</h1>
                 </div>
                 <div className="sidemenu">
                 <ul>
-                    <li><a href="#">Fashion</a></li>
-                    <li><a href="#">Fashion Shows</a></li>
+                    <li><a href="#">Fashion</a>
+                        
+                    </li>
+                    <li><a href="#">Fashion Shows</a> </li>
                     <li><a href="#">Culture</a></li>
                     <li><a href="#">Magazine</a></li>
                     <li><a href="#">Met Gala</a></li>
@@ -47,7 +50,7 @@ export default function SideBar() {
                     </ul>
                     <a href="#"> 
                         <div className="signup">
-                         Sign up for Newsletter <HiArrowCircleRight className="icon06" size="20" />
+                         Sign up for OpenMarket <HiArrowCircleRight className="icon06" size="20" />
                         </div>
                     </a>
                 </div>
