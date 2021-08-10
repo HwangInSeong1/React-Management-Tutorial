@@ -1,12 +1,49 @@
 import "./css/Main.css"
-import SideBar from './SideBar'
 
-export default function MainPage() {
+
+export default function MainPage( { history } ) {
     return (
-        <body>
-            <div className="contain">
-                <SideBar />
-            </div>
-        </body>
+        <>
+            <span className="sagak">
+                Hello    
+            </span>
+            <span className="sagak">
+                Hello    
+            </span>
+            <span className="sagak">
+                Hello    
+            </span>
+            <span className="sagak">
+                Hello    
+            </span>
+            <span className="sagak">
+                Hello    
+            </span>
+            <br></br>
+            <span className="sagak">
+                Hello    
+            </span>
+            <span className="sagak">
+                Hello    
+            </span>
+            <span className="sagak">
+                Hello    
+            </span>
+            <span className="sagak">
+                Hello    
+            </span>
+            <br></br>
+            <span className="sagak">
+                Hello    
+            </span>
+            <span className="sagak">
+                Hello    
+            </span>
+            <span className="sagak">
+                Hello    
+            </span>
+            <br></br>
+            <button className="btnmove" onClick={() => history.push('/other')}>OtherPage 이동</button>
+        </>
     )
 }

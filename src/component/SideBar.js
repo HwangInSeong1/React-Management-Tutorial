@@ -5,8 +5,9 @@ import {GrYoutube} from "react-icons/gr";
 import {GrInstagram} from "react-icons/gr";
 import {GrTwitter} from "react-icons/gr";
 import {HiArrowCircleRight} from "react-icons/hi";
+import {Link} from 'react-router-dom'
 
-export default function SideBar() {
+export default function SideBar( { history } ) {
 
     return (
         <div className="SideMenu">
@@ -17,15 +18,15 @@ export default function SideBar() {
                 <span></span>
             </label>
             <div className="sidebar">
+                <Link to="/">
                 <div className="sidemenuTitle">
                     <h1>Open Market</h1>
                 </div>
+                </Link>
                 <div className="sidemenu">
                 <ul>
-                    <li><a href="#">Fashion</a>
-                        
-                    </li>
-                    <li><a href="#">Fashion Shows</a> </li>
+                    <li><Link to="/other" >Fashion</Link></li>
+                    <li><Link to="/main"> Fashion Shows</Link> </li>
                     <li><a href="#">Culture</a></li>
                     <li><a href="#">Magazine</a></li>
                     <li><a href="#">Met Gala</a></li>
